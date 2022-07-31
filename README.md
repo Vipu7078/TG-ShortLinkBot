@@ -1,5 +1,5 @@
 # TG-BitlyBot
-Make a short link by using [Bit.ly](https://bit.ly/) API key Or With [Da.gd](https://da.gd) If BITLY_KEY isn't present
+Make a short link by using [https://linkbnao.com](https://linkbnao.com) API key Or With [linkbnao.com](https://linkbnao.com) If BITLY_KEY isn't present
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
