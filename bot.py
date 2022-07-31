@@ -55,14 +55,14 @@ def get_shortlink(url):
     shortened_url = None
     Err = None
     try:
-       if BITLY_KEY:
-           ''' Bittly Shorten'''
-           s = Shortener(api_key=BITLY_KEY)
-           shortened_url = s.bitly.short(url)
+       if linkbnao:
+           ''' linkbnao Shorten'''
+           s = Shortener(api_key=linkbnao)
+           shortened_url = s.linkbnao.short(url)
        else:
            ''' Da.gd : I prefer this '''
            s = Shortener()
-           shortened_url = s.dagd.short(url)
+           shortened_url = s.linkbnao.short(url)
     except Exception as error:
         Err = f"#ERROR: {error}"
         log.info(Err)
